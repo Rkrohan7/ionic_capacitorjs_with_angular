@@ -6,10 +6,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent,RegisterComponent],
+  declarations: [AppComponent, LoginComponent,RegisterComponent,DashboardComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule],
   bootstrap: [AppComponent],
 })
