@@ -7,10 +7,12 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { CameraComponent } from './camera/camera.component';
+import { ScreenreaderComponent } from './screenreader/screenreader.component';
 
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent,RegisterComponent,DashboardComponent],
+  declarations: [AppComponent, LoginComponent,RegisterComponent,DashboardComponent,CameraComponent,ScreenreaderComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule],
   bootstrap: [AppComponent],
 })

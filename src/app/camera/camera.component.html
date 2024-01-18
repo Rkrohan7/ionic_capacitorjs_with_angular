@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Upload Image</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card>
+    <ion-card-content>
+      <form>
+        <ion-button expand="block" class="ion-margin-top" (click)="takePicture()">Upload Images</ion-button>
+        <ion-button expand="block" class="ion-margin-top" (click)="goToLocation()">Get Location</ion-button>
+      </form>
+    </ion-card-content>
+  </ion-card>
+  <img [src]="image" alt="Uploaded" />
+</ion-content>

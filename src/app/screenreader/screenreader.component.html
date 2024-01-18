@@ -1,0 +1,6 @@
+<ion-content>
+  <ion-button (click)="toggleScreenReader()">Toggle Screen Reader</ion-button>
+  <div aria-live="polite">
+    {{ screenReaderService.isScreenReaderActive() ? 'Screen Reader Enabled' : 'Screen Reader Disabled' }}
+  </div>
+</ion-content>
